@@ -4,7 +4,7 @@ Project {
     minimumQbsVersion: "1.7.1"
 
     CppApplication {
-        name: "First"
+        name: "2"
         Depends { name: "Qt.core" }
 
         cpp.cxxLanguageVersion: "c++11"
@@ -24,7 +24,8 @@ Project {
 
         consoleApplication: true
         files: [
-            "CiString.h",
+            "DataKeeper.cpp",
+            "DataKeeper.h",
             "main.cpp",
         ]
 
