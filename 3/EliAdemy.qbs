@@ -26,8 +26,7 @@ Project {
         files: [
             "main.cpp",
             "Build.h",
-            "Human.h",
-            "Apartment.h"
+            "Build.cpp"
         ]
 
         Group {     // Properties for the produced executable

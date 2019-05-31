@@ -7,8 +7,8 @@ int main(int argc, char *argv[])
     Building home("Pupkin str, 1", 4, BuildingType::House);
     Building office("Pupkin str, 2", 4, BuildingType::Office);
 
-    HumanGuard bob = std::make_shared<Man>(QDate(1, 1, 2000), "Bob");
-    HumanGuard alice = std::make_shared<Woman>(QDate(1, 1, 1990), "Alice");
+    HumanGuard bob = std::make_shared<Man>(QDate(2000, 1, 1), "Bob");
+    HumanGuard alice = std::make_shared<Woman>(QDate(1990, 2, 3), "Alice");
 
     Humans_vt familyFromFirstRoom;
     familyFromFirstRoom.push_back(bob);
@@ -27,5 +27,5 @@ int main(int argc, char *argv[])
 
     office.About();
 
-    return 1;
+    return 0;
 }
